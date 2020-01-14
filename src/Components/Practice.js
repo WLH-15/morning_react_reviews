@@ -6,7 +6,7 @@ class Practice extends Component{
         this.state = {
             inputValue: '',
             firstName: 'Lucas'
-        }
+        } 
     }
 
     handleChange = e => {
@@ -25,6 +25,7 @@ class Practice extends Component{
 
     render(){
         console.log(this.state.inputValue)
+        const {}
         return(
             <div>
                 <input
